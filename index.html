@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Calculadora Incrível</title>
+    
+</head>
+<body>
+    <div class="container calculator">
+        <div class="row text-center align-items-center">
+            <div class="col-12">
+                <h1>A calculadora mais incrível da sua vida!</h1>
+            </div>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-12">
+                <input type="number" id="elem-1">
+            </div>
+            <div class="col-12 ">
+                <div class="container operations">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col operation">
+                            <input type="radio" id="sum-operation" name="operation" value="+" checked>
+                            <label for="sum-operation">+</label>
+                        </div>
+                        <div class="col operation">
+                            <input type="radio" id="subtract-operation" name="operation" value="-">
+                            <label for="subtract-operation">-</label>
+                        </div>
+                        <div class="col operation">
+                            <input type="radio" id="multiply-operation" name="operation" value="*">
+                            <label for="multiply-operation">&times</label>
+                        </div> 
+                        <div class="col operation">
+                            <input type="radio" id="divide-operation" name="operation" value="/">
+                            <label for="divide-operation">&divide</label>
+                        </div>
+                        <div class="col operation">
+                            <input type="radio" id="percent-operation" name="operation" value="%">
+                            <label for="percent-operation">%</label>
+                        </div>
+                        <div class="col operation">
+                            <input type="radio" id="potentiation-operation" name="operation" value="^">
+                            <label for="potentiation-operation">^</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <input type="number" id="elem-2">
+                </div>
+                <div class="col-12">
+                    <button id="calculate-button">=</button>
+                </div>
+                <div class="col-12">
+                    <h2 id="result"></h2>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
